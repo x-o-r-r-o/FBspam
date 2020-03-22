@@ -35,7 +35,7 @@ def main():
 		try:
 			sent = client.send (fbchat.models.Message(msg), friend.uid)
 			print ('Отправлено пользователю ' + name)
-			time.sleep (3.5)
+			time.sleep (4)
 
 		except:
 			print ('Сообщение не отправлено :(')
